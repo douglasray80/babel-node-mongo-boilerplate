@@ -1,0 +1,39 @@
+{
+	"name": "babel-node-mongo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "dotenv -- nodemon --exec babel-node server.js",
+		"test": "mocha -r @babel/register"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"helmet": "^3.18.0",
+		"method-override": "^3.0.0",
+		"mongoose": "^5.5.11",
+		"morgan": "^1.9.1"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.4.4",
+		"@babel/core": "^7.4.5",
+		"@babel/node": "^7.4.5",
+		"@babel/preset-env": "^7.4.5",
+		"@babel/register": "^7.4.4",
+		"chai": "^4.2.0",
+		"dotenv-cli": "^2.0.0",
+		"eslint": "^5.16.0",
+		"eslint-config-prettier": "^4.3.0",
+		"eslint-plugin-prettier": "^3.1.0",
+		"mocha": "^6.1.4",
+		"nodemon": "^1.19.1",
+		"parcel-bundler": "^1.12.3",
+		"sinon": "^7.3.2",
+		"sinon-mongoose": "^2.3.0"
+	}
+}
